@@ -30,9 +30,10 @@ cd $HOME
 # Git clone Caffe
 #git clone https://github.com/BVLC/caffe.git 
 #git clone https://github.com/MichalBusta/caffe.git
-git clone https://github.com/gklz1982/caffe-yolov2.git caffe
+#git clone https://github.com/gklz1982/caffe-yolov2.git caffe
+git clone https://github.com/VivekMaran27/caffe-yolov2
 cd caffe 
-git checkout darknet
+#git checkout darknet
 #cp Makefile.config.example Makefile.config
 # If cuDNN is found cmake uses it in the makefile
 # Regen the makefile; On 16.04, aarch64 has issues with a static cuda runtime
