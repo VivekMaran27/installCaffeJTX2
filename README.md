@@ -1,4 +1,6 @@
 # installCaffeJTX2
+This repository is forked from https://github.com/jetsonhacks/installCaffeJTX2. The change done is to make the build link point to a caffe source that has support for darknet conversion. Instructions to build caffe remain same as original repo. Details as follows:
+
 Install Caffe on the NVIDIA Jetson TX2 Development Kit.
 
 Caffe: a fast open framework for deep learning. http://caffe.berkeleyvision.org/
@@ -23,7 +25,4 @@ These can all be installed with JetPack 3.
 To install, run the installCaffe.sh script:
 
 $ ./installCaffe.sh
-
-
-Last tested with last Github Caffe commit: 317d162acbe420c4b2d1faa77b5c18a3841c444c
 
